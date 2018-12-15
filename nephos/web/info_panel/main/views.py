@@ -102,7 +102,7 @@ def show_jobs():
         date = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
             
     # Create a Dictionary and Put it inside a Main Dictionary
-    dat = {'channel_name': row[0], 'next_run_time': str(date)}
+        dat = {'channel_name': row[0], 'next_run_time': str(date)}
         data[number] = dict(dat)
         number += 1
 
